@@ -23,9 +23,7 @@ function lakukanLooping(arrPegawai) {
 
       Contoh: ["Aisyah Nirmala", "Mansur Faisal", ...]
   */
-  let hasilLooping = dataYangAkanDilooping.map(data => {
-    return `${data.namaDepan} ${data.namaBelakang}`;
-  });
+  let hasilLooping = dataYangAkanDilooping.map(data => `${data.namaDepan} ${data.namaBelakang}`);
 
   /*
     TODO 2: Buatlah sebuah variabel bernama "jumlahPria"
